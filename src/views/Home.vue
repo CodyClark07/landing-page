@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <div class="home bg-image"></div>
 </template>
 
 <script>
@@ -10,3 +10,11 @@ export default {
   components: {},
 };
 </script>
+<style>
+.bg-image {
+  background-image: url("~@/assets/MossTree.jpeg");
+  background-size: cover;
+  min-height: 60rem;
+  background-repeat: no-repeat;
+}
+</style>
