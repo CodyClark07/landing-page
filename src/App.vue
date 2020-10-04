@@ -1,7 +1,8 @@
 <template>
   <div id="app" class="bg-dark">
-    <navbar />
-    <router-view />
+    <navbar /><transition name="fade">
+      <router-view :key="$route.fullPath" />
+    </transition>
   </div>
 </template>
 
@@ -35,5 +36,14 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

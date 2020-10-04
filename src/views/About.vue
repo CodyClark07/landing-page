@@ -1,10 +1,10 @@
  <template>
   <div class="about container-fluid bg-image">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 fade-in">
       <img src="@/assets/profile.jpg" class="img-thumbnail profile" />
       </div>
-      <div class="col-12 col-md-6 mt-2">
+      <div class="col-12 col-md-6 mt-2 fade-in">
         <p class="text-white bg-gradient">
           "Don't save what you can do today, for tomorrow" Was a saying my
           father told me numerous times while growing up, and has stuck with me
@@ -41,79 +41,79 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-1 ">
+      <div id="div1" class="col-1 ">
             <img 
               src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png"
               class="icon "
             />
           </div>
           
-          <div class="col-1 mt-5">
+          <div id="div1" class="col-1 mt-5">
             <img
               src="https://www.pinpng.com/pngs/m/36-369543_css3-logo-png-transparent-css-logo-png-download.png"
               class="icon "
             />
           </div>
           
-          <div class="col-1">
+          <div id="div1" class="col-1">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJMuClr7fEgbRv1kmlI1NhFusVkZqwuhOfnw&usqp=CAU"
               class="icon "
             />
           </div>
           
-          <div class="col-1 mt-5">
+          <div id="div1" class="col-1 mt-5">
             <img
               src="https://3lhowb48prep40031529g5yj-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/logo-vuejs-min.png"
               class="icon "
             />
           </div>
           
-          <div class="col-1">
+          <div id="div1" class="col-1">
             <img
               src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
               class="icon "
             />
           </div>
           
-          <div class="col-1 mt-5">
+          <div id="div1" class="col-1 mt-5">
             <img
               src="https://kodyclemens.com/wp-content/uploads/2019/07/postman.jpg"
               class="icon "
             />
           </div>
           
-          <div class="col-1">
+          <div id="div1" class="col-1">
             <img
               src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
               class="icon "
             />
           </div>
-          <div class="col-1 mt-5">
+          <div id="div1" class="col-1 mt-5">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
               class="icon "
             />
           </div>
-          <div class="col-1 ">
+          <div id="div1" class="col-1 ">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
               class="icon "
             />
           </div>
-          <div class="col-1 mt-5 ">
+          <div id="div1" class="col-1 mt-5 ">
             <img
               src="https://cdn.worldvectorlogo.com/logos/mysql-7.svg"
               class="icon "
             />
           </div>
-          <div class="col-1">
+          <div id="div1" class="col-1">
             <img
               src="https://3di-info.com/wp-content/uploads/2017/12/3di-casestudy-600x401-auth0.png"
               class="icon "
             />
           </div>
-          <div class="col-1  mt-5 ">
+          <div id="div1" class="col-1  mt-5 ">
             <img
               src="https://4.bp.blogspot.com/-HrdDNxWpN30/UUobCj5EzsI/AAAAAAAAA4o/Q1B29GzHDoc/s1600/mvc_logo.gif"
               class="icon "
@@ -138,6 +138,26 @@ export default {
 
 
 <style scoped>
+#div1 {
+  -webkit-animation: fadein 3s;
+}
+.fade-in {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .bg-gradient {
   background: rgb(38, 38, 38);
   background: linear-gradient(
