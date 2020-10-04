@@ -2,88 +2,8 @@
   <div class="about container-fluid bg-image">
     <div class="row">
       <div class="col-12 col-md-6">
-        <div class="row mt-1">
-          <div class="col-1">
-            <img
-              src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://www.pinpng.com/pngs/m/36-369543_css3-logo-png-transparent-css-logo-png-download.png"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJMuClr7fEgbRv1kmlI1NhFusVkZqwuhOfnw&usqp=CAU"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://3lhowb48prep40031529g5yj-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/logo-vuejs-min.png"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://kodyclemens.com/wp-content/uploads/2019/07/postman.jpg"
-              class="icon card"
-            />
-          </div>
-          <div class="w-100"></div>
-          <div class="col-1">
-            <img
-              src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
-              class="icon card"
-            />
-          </div>
-          <div class="col-2 margin-icon-1">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
-              class="icon card"
-            />
-          </div>
-          <div class="col-2 margin-right">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
-              class="icon card"
-            />
-          </div>
-          <div class="col-2 margin-right">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/mysql-7.svg"
-              class="icon card"
-            />
-          </div>
-          <div class="col-2 margin-right">
-            <img
-              src="https://3di-info.com/wp-content/uploads/2017/12/3di-casestudy-600x401-auth0.png"
-              class="icon card"
-            />
-          </div>
-          <div class="col-2 margin-right">
-            <img
-              src="https://4.bp.blogspot.com/-HrdDNxWpN30/UUobCj5EzsI/AAAAAAAAA4o/Q1B29GzHDoc/s1600/mvc_logo.gif"
-              class="icon card"
-            />
-          </div>
-        </div>
-      </div>
       <img src="@/assets/profile.jpg" class="img-thumbnail profile" />
+      </div>
       <div class="col-12 col-md-6 mt-2">
         <p class="text-white bg-gradient">
           "Don't save what you can do today, for tomorrow" Was a saying my
@@ -102,7 +22,7 @@
           the amazing opportunity to work from the bottom, up to Operations
           Manager and learn the ins and outs of an entire business, I built
           quite the arsenal of skills.
-          <span>
+          <br>
             But as time moved on I realized I yearned for more mental
             stimulation and learning, even after completing my Bachelor’s of
             Science in Fish & Wildlife Management. I was always working in
@@ -116,14 +36,94 @@
             its ability to not only mentally stimulate me but provide me with
             endless educational opportunities, I felt I finally found where I
             was meant to be.
-          </span>
+          </br>
         </p>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-1 ">
+            <img 
+              src="https://www.freeiconspng.com/uploads/w3c-html5-logo-0.png"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1 mt-5">
+            <img
+              src="https://www.pinpng.com/pngs/m/36-369543_css3-logo-png-transparent-css-logo-png-download.png"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJMuClr7fEgbRv1kmlI1NhFusVkZqwuhOfnw&usqp=CAU"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1 mt-5">
+            <img
+              src="https://3lhowb48prep40031529g5yj-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/logo-vuejs-min.png"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1">
+            <img
+              src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1 mt-5">
+            <img
+              src="https://kodyclemens.com/wp-content/uploads/2019/07/postman.jpg"
+              class="icon "
+            />
+          </div>
+          
+          <div class="col-1">
+            <img
+              src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
+              class="icon "
+            />
+          </div>
+          <div class="col-1 mt-5">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
+              class="icon "
+            />
+          </div>
+          <div class="col-1 ">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+              class="icon "
+            />
+          </div>
+          <div class="col-1 mt-5 ">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/mysql-7.svg"
+              class="icon "
+            />
+          </div>
+          <div class="col-1">
+            <img
+              src="https://3di-info.com/wp-content/uploads/2017/12/3di-casestudy-600x401-auth0.png"
+              class="icon "
+            />
+          </div>
+          <div class="col-1  mt-5 ">
+            <img
+              src="https://4.bp.blogspot.com/-HrdDNxWpN30/UUobCj5EzsI/AAAAAAAAA4o/Q1B29GzHDoc/s1600/mvc_logo.gif"
+              class="icon "
+            />
+          </div>
     </div>
   </div>
 </template>
 
-Z
+
 <script>
 export default {
   name: "about",
@@ -150,13 +150,13 @@ export default {
 .icon {
   height: 5rem;
   width: 5rem;
+  margin: 0rem !important;
 }
 .profile {
-  position: absolute;
-  top: 70px;
-  left: 100px;
+  margin-top: 1rem;
   height: 29.5rem;
   width: 23rem;
+  background-color: transparent;
 }
 .align {
   flex-direction: row;
@@ -166,13 +166,5 @@ export default {
   background-size: cover;
   min-height: 60rem;
   background-repeat: no-repeat;
-}
-.margin-icon-1 {
-  margin-left: 1.55rem;
-  padding-right: 0rem;
-}
-.margin-icon {
-  margin-right: -2.75rem;
-  padding: 0rem;
 }
 </style>
