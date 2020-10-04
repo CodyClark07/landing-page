@@ -6,9 +6,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "debug": "node index.js",
-    "start": "node index.js",
-    "dev": "node index.js",
+    "debug": "node main.js",
+    "start": "node main.js",
+    "dev": "node main.js",
     "setup": "npm install"
   },
   "dependencies": {
