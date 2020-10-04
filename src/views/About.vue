@@ -1,10 +1,10 @@
  <template>
   <div class="about container-fluid bg-image">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-12 col-md-6 fade-in">
       <img src="@/assets/profile.jpg" class="img-thumbnail profile" />
       </div>
-      <div class="col-12 col-md-6 mt-2 fade-in">
+      <div class="col-12 col-md-6 mt-2 fade-in ">
         <p class="text-white bg-gradient">
           "Don't save what you can do today, for tomorrow" Was a saying my
           father told me numerous times while growing up, and has stuck with me
