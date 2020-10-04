@@ -2,9 +2,14 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "debug": "node index.js",
+    "start": "node index.js",
+    "dev": "node index.js",
+    "setup": "npm install"
   },
   "dependencies": {
     "core-js": "^3.6.5",
