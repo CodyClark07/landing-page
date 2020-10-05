@@ -33,7 +33,7 @@
 
       <div id="div1" class="col-1 mt-5">
         <img
-          src="https://i.dlpng.com/static/png/7139180_preview.png"
+          src="https://img2.pngio.com/filecss3svg-wikimedia-commons-css-logo-png-1200_1682.png"
           class="icon"
         />
       </div>
