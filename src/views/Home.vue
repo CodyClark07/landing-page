@@ -33,21 +33,21 @@
             class="dropdown-menu bg-warning"
             aria-labelledby="dropdownMenuButton"
           >
+            <h3 class="text-center">
+              <a href="tel:2089604422"
+                ><i
+                  class="fa fa-mobile text-success"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Click to call"
+                ></i
+              ></a>
+            </h3>
             <a class="">
               <h5 class="text-dark text-center">
                 <u>Phone</u>
               </h5>
               <h4 class="text-dark text-center">208-960-4422</h4>
-              <h3 class="text-center">
-                <a href="`tel:${ cell }`"
-                  ><i
-                    class="fa fa-mobile text-success"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Click to call"
-                  ></i
-                ></a>
-              </h3>
             </a>
           </div>
         </i>
