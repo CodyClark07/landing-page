@@ -7,7 +7,7 @@
           target="_blank"
         >
           <i
-            class="fa fa-file-text-o fa-2x mx-2 text-dark cursor"
+            class="fa fa-file-text-o fa-2x mx-2 text-warning cursor"
             data-toggle="tooltip"
             data-placement="top"
             title="Click to view Resume"
@@ -15,7 +15,7 @@
         </a>
         <a href="mailto:cclarkbar7@gmail.com">
           <i
-            class="fa fa-envelope-o fa-2x mx-2 text-dark cursor"
+            class="fa fa-envelope-o fa-2x mx-2 text-danger cursor"
             data-toggle="tooltip"
             data-placement="top"
             title="Click to email"
@@ -24,7 +24,7 @@
         <i
           type="button"
           id="dropdownMenuButton"
-          class="dropdown fa fa-phone-square fa-2x mx-2 text-dark cursor"
+          class="dropdown fa fa-phone-square fa-2x mx-2 text-success cursor"
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"
@@ -53,7 +53,7 @@
         </i>
         <a href="https://www.linkedin.com/in/codyclark07/" target="_blank">
           <i
-            class="fa fa-linkedin-square fa-2x mx-2 text-dark cursor"
+            class="fa fa-linkedin-square fa-2x mx-2 text-primary cursor"
             data-toggle="tooltip"
             data-placement="top"
             title="Click to view LinkedIn"
