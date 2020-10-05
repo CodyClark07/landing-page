@@ -76,12 +76,13 @@
         class="img-thumbnail profile"
         @mouseover="BwVisible = !BwVisible"
       />
-      <img
-        v-if="!BwVisible"
-        src="@/assets/profile-3.jpg"
-        class="img-thumbnail profile"
-        @mouseleave="BwVisible = true"
-      />
+      <router-link class="nav-link" :to="{ name: 'About' }"
+        ><img
+          v-if="!BwVisible"
+          src="@/assets/profile-3.jpg"
+          class="img-thumbnail profile"
+          @mouseleave="BwVisible = true"
+      /></router-link>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-lg-4 col-md-4 col-sm-4">
