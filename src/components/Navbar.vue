@@ -2,7 +2,11 @@
   <nav
     class="nav container-fluid navbar-expand-lg navbar-light bg-light sticky-top"
   >
-    <h2 class="navbar-brand text-warning my-2 py-2 ml-2">Cody Clark</h2>
+    <h2 class="navbar-brand text-warning my-2 py-2 ml-2">
+      <router-link :to="{ name: 'Home' }" class="nav-link"
+        >Cody Clark</router-link
+      >
+    </h2>
 
     <button
       class="navbar-toggler"
