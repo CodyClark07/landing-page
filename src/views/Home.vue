@@ -178,10 +178,10 @@
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
-        class="col-12 col-lg-6 col-md-6 align-self-center"
+        class="col-12 col-lg-8 col-md-8 align-self-center"
       >
         <div
-          class="card bg-gradient border shadow-lg text-white text-center h-25 p-4"
+          class="card bg-gradient border shadow-lg text-white text-center h-25 p-4 cursor"
           style="overflow: auto"
         >
           <h1 class="text-warning"><b>MY PROJECTS</b></h1>
@@ -338,9 +338,9 @@ hr.rounded {
   background: rgb(38, 38, 38);
   background: linear-gradient(
     0deg,
-    rgba(38, 38, 38, 0.671) 0%,
-    rgba(55, 55, 55, 0.671) 50%,
-    rgba(33, 32, 32, 0.671) 100%
+    rgba(38, 38, 38, 0.897) 0%,
+    rgba(55, 55, 55, 0.918) 50%,
+    rgba(33, 32, 32, 0.774) 100%
   );
 }
 .profile {
