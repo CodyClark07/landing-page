@@ -1,26 +1,26 @@
 <template>
   <div class="Projects">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-6 col-md-6 text-white text-center mx-auto mt-2">
-        <h3>Bug-Report</h3>
+      <div class="col-12 col-lg-6 col-md-6 text-white text-center mt-2 mb-2">
+        <h3>Friendzone</h3>
         <p class="">
-          Application built with Vue.js, JavaScript and integrated Auth0.
-          Designed to allow a user to log individual bug reports. Bugs report
-          created by, and the timestamp it was created. Users can also add notes
-          to the bug report providing detailed steps towards the bugs
-          resolution.
+          Application built with Vue.js, Node.js, JavaScript and API's, along
+          with Auth0. Product owner, maintained Scrum principles. This App was
+          designed to be a social media platform for gamers across all consoles.
+          Where they can follow their favorite games and chat with other gamers,
+          as well as maintain a ranking system based off of a Rep score.
         </p>
-        <a href="http://buggreport.herokuapp.com">
+        <a href="https://friendzone-capstone.herokuapp.com">
           <img
-            src="@/assets/Bug-Report.png"
-            alt="Bug-Report"
+            src="@/assets/Friendzone.png"
+            alt="Friendzone"
             class="img-fluid rounded border cursor img-size shake"
             data-toggle="tooltip"
             data-placement="top"
             title="Click to open"
           />
         </a>
-        <a href="https://github.com/CodyClark07/Bug-Report">
+        <a href="https://github.com/HarrisonWheeler/friendzone-capstone">
           <img
             src="https://image.flaticon.com/icons/png/512/25/25231.png"
             alt="GitHub"
@@ -32,6 +32,7 @@
         </a>
       </div>
     </div>
+
     <hr class="rounded" />
     <div class="row justify-content-center">
       <div class="col-12 col-lg-6 col-md-6 text-white text-center mx-auto mt-2">
@@ -65,26 +66,26 @@
     </div>
     <hr class="rounded" />
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-6 col-md-6 text-white text-center mt-2 mb-2">
-        <h3>Friendzone</h3>
+      <div class="col-12 col-lg-6 col-md-6 text-white text-center mx-auto mt-2">
+        <h3>Bug-Report</h3>
         <p class="">
-          Application built with Vue.js, Node.js, JavaScript and API's, along
-          with Auth0. Product owner, maintained Scrum principles. This App was
-          designed to be a social media platform for gamers across all consoles.
-          Where they can follow their favorite games and chat with other gamers,
-          as well as maintain a ranking system based off of a Rep score.
+          Application built with Vue.js, JavaScript and integrated Auth0.
+          Designed to allow a user to log individual bug reports. Bugs report
+          created by, and the timestamp it was created. Users can also add notes
+          to the bug report providing detailed steps towards the bugs
+          resolution.
         </p>
-        <a href="https://friendzone-capstone.herokuapp.com">
+        <a href="http://buggreport.herokuapp.com">
           <img
-            src="@/assets/Friendzone.png"
-            alt="Friendzone"
+            src="@/assets/Bug-Report.png"
+            alt="Bug-Report"
             class="img-fluid rounded border cursor img-size shake"
             data-toggle="tooltip"
             data-placement="top"
             title="Click to open"
           />
         </a>
-        <a href="https://github.com/HarrisonWheeler/friendzone-capstone">
+        <a href="https://github.com/CodyClark07/Bug-Report">
           <img
             src="https://image.flaticon.com/icons/png/512/25/25231.png"
             alt="GitHub"

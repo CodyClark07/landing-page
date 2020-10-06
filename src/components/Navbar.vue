@@ -21,12 +21,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" :class="{ active: $route.name == 'Home' }">
+        <!-- <li class="nav-item" :class="{ active: $route.name == 'Home' }">
           <router-link :to="{ name: 'Home' }" class="nav-link"
             >Home</router-link
           >
-        </li>
-        <li class="nav-item" :class="{ active: $route.name == 'About' }">
+        </li> -->
+        <!-- <li class="nav-item" :class="{ active: $route.name == 'About' }">
           <router-link class="nav-link" :to="{ name: 'About' }"
             >About</router-link
           >
@@ -35,7 +35,7 @@
           <router-link class="nav-link" :to="{ name: 'Projects' }"
             >Projects</router-link
           >
-        </li>
+        </li> -->
       </ul>
       <!-- <span class="navbar-text">
         <button class="btn btn-success" @click="login" v-if="!$auth.isAuthenticated">Login</button>

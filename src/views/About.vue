@@ -1,6 +1,6 @@
  <template>
   <div class="about container-fluid bg-image">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center bg-image">
       <div class="col-12 col-md-6 fade-in">
         <img src="@/assets/profile.jpg" class="img-thumbnail profile" />
       </div>
@@ -164,7 +164,7 @@ export default {
 .align {
   flex-direction: row;
 }
-.bg-image {
+.bg-image2 {
   background-image: url("~@/assets/InletWinter.jpeg");
   background-size: cover;
   min-height: 60rem;
