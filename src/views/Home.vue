@@ -76,7 +76,7 @@
           class="img-thumbnail profile"
           @mouseover="BwVisible = !BwVisible"
         /> -->
-        <img src="@/assets/profile-3.jpg" class="profile" />
+        <img src="@/assets/profile-3.jpg" class="profile rounded shadow-lg" />
         <h1 class="text-white text-center">Software Developer</h1>
       </div>
     </div>
@@ -95,7 +95,7 @@
         data-aos-easing="ease-in-sine"
         class="col-12 col-md-6 align-self-center"
       >
-        <img src="@/assets/profile.jpg" class="profile shadow-lg" />
+        <img src="@/assets/profile.jpg" class="profile rounded shadow-lg" />
       </div>
       <div
         data-aos="fade-up"
@@ -314,6 +314,8 @@ hr.rounded {
 .h-25 {
   min-height: 40rem;
   max-height: 40rem;
+  /* min-width: 50rem; */
+  max-width: 50rem;
 }
 .fade-in {
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
