@@ -17,7 +17,7 @@
           in technology, from building inventory databases in excel and
           formatting Point of Sale systems, to using GIS and radio telemetry
           along with population dynamics for data analysis using excel and other
-          software.Realizing how much I enjoyed coding and its ability to not
+          software. Realizing how much I enjoyed coding and its ability to not
           only mentally stimulate me but provide me with endless educational
           opportunities, I felt I finally found where I was meant to be.
         </p>

@@ -80,7 +80,7 @@
         <h1 class="text-white text-center">Software Developer</h1>
       </div>
     </div>
-    <div class="row bg-image2">
+    <div id="about" class="row bg-image2">
       <div
         data-aos="fade-right"
         data-aos-offset="300"
@@ -115,7 +115,7 @@
           in technology, from building inventory databases in excel and
           formatting Point of Sale systems, to using GIS and radio telemetry
           along with population dynamics for data analysis using excel and other
-          software.Realizing how much I enjoyed coding and its ability to not
+          software. Realizing how much I enjoyed coding and its ability to not
           only mentally stimulate me but provide me with endless educational
           opportunities, I felt I finally found where I was meant to be.
         </p>
@@ -174,7 +174,7 @@
         />
       </div>
     </div>
-    <div class="row justify-content-center bg-image3">
+    <div id="projects" class="row justify-content-center bg-image3">
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
@@ -344,7 +344,7 @@ hr.rounded {
 .profile {
   margin-top: 1rem;
   height: 29.5rem;
-  width: 23rem;
+
   background-color: transparent;
 }
 .bg-image {
