@@ -1,12 +1,12 @@
 <template>
   <nav
-    class="nav container-fluid navbar-expand-lg navbar-light bg-light sticky-top"
+    class="navbar fixed-top container-fluid navbar-expand-lg navbar-light bg-light"
   >
-    <h2 class="navbar-brand text-warning my-2 py-2 ml-2">
+    <a class="navbar-brand text-warning my-2 py-2 ml-2">
       <router-link :to="{ name: 'Home' }" class="nav-link"
         >Cody Clark</router-link
       >
-    </h2>
+    </a>
 
     <button
       class="navbar-toggler"
@@ -43,17 +43,13 @@
           >
         </li> -->
       </ul>
-      <!-- <span class="navbar-text">
-        <button class="btn btn-success" @click="login" v-if="!$auth.isAuthenticated">Login</button>
-        <button class="btn btn-danger" @click="logout" v-else>logout</button>
-      </span> -->
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-  name: "nav",
+  name: "navbar",
 };
 </script>
 

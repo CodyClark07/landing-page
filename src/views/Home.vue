@@ -106,17 +106,16 @@
         <p class="text-white bg-gradient mr-2 ml-2 text-center shadow-lg">
           "Don't save what you can do today, for tomorrow" Was a saying my
           father told me numerous times while growing up, and has stuck with me
-          since. I have always been GO-GO-GO since I was a kid and it overlapped
-          into my work ethic. For 16 years I worked in the family business,
-          starting as a fish processor, after several years of maintaining the
-          fish processing plant, I decided to take on a bigger role of store
-          management and product development. But as time moved on I realized I
-          yearned for more mental stimulation and learning. I was always working
-          in technology, from building inventory databases in excel and
-          formatting Point of Sale systems, to using GIS and radio telemetry
-          along with population dynamics for data analysis using excel and other
-          software. Realizing how much I enjoyed coding and its ability to not
-          only mentally stimulate me but provide me with endless educational
+          since. For 16 years I worked in the family business, starting as a
+          fish processor, after several years of maintaining the fish processing
+          plant, I decided to take on a bigger role of store management and
+          product development. But as time moved on I realized I yearned for
+          more mental stimulation and learning. I was always working in
+          technology, from building inventory databases in excel and formatting
+          Point of Sale systems, to using GIS and radio telemetry along with
+          population dynamics for data analysis using excel and other software.
+          Realizing how much I enjoyed coding and its ability to not only
+          mentally stimulate me but provide me with endless educational
           opportunities, I felt I finally found where I was meant to be.
         </p>
       </div>
@@ -332,6 +331,33 @@ hr.rounded {
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 .bg-gradient {

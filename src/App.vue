@@ -1,6 +1,7 @@
 <template>
-  <div id="app" class="bg-dark">
-    <navbar /><transition name="fade">
+  <div id="app" class="">
+    <navbar />
+    <transition name="fade">
       <router-view :key="$route.fullPath" />
     </transition>
   </div>
@@ -10,6 +11,9 @@
 import Navbar from "@/components/Navbar";
 export default {
   name: "App",
+  mounted() {
+    setTimeout(() => window.scrollTo(0, 0), 75);
+  },
   components: {
     Navbar,
   },
@@ -46,5 +50,8 @@ export default {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 </style>
