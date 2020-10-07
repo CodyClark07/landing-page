@@ -425,4 +425,7 @@ hr.rounded {
   max-height: 50px;
   color: white;
 }
+div {
+  overflow-x: hidden;
+}
 </style>
