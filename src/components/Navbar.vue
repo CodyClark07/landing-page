@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar fixed-top container-fluid navbar-expand-lg navbar-light bg-light"
+    class="navbar sticky-top container-fluid navbar-expand-lg navbar-light bg-light"
   >
     <a class="navbar-brand text-warning my-2 py-2 ml-2">
       <router-link :to="{ name: 'Home' }" class="nav-link"

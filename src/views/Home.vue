@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home container-fluid">
     <div class="row bg-image justify-content-center">
       <div
-        class="col-12 col-lg-4 col-md-5 col-sm-6 mt-2 text-center fade-in"
+        class="col-12 col-lg-4 col-md-5 col-sm-6 text-center fade-in"
         data-aos="fade-up"
       >
         <a
@@ -288,7 +288,6 @@ export default {
   name: "Home",
   data() {
     return {
-      BwVisible: true,
       cell: "2089604422",
     };
   },
