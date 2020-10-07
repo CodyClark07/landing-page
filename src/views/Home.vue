@@ -185,7 +185,23 @@
         >
           <h1 class="text-warning"><b>MY PROJECTS</b></h1>
           <div>
-            <h3><u>Friendzone</u></h3>
+            <h3>
+              <u>Friendzone</u>
+              <a
+                href="https://github.com/HarrisonWheeler/friendzone-capstone"
+                target="_blank"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                  alt="GitHub"
+                  class="rounded cursor text-white github ml-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Click for source code"
+                />
+              </a>
+            </h3>
+
             <p class="">
               Product owner, maintained Scrum principles. This App was designed
               to be a social media platform for gamers across all consoles.
@@ -194,7 +210,7 @@
               score. Application built with Vue.js, Node.js, JavaScript, MongoDB
               and API's, along with Auth0.
             </p>
-            <a href="https://friendzone-capstone.herokuapp.com">
+            <a href="https://friendzone-capstone.herokuapp.com" target="_blank">
               <img
                 src="@/assets/Friendzone.png"
                 alt="Friendzone"
@@ -204,26 +220,31 @@
                 title="Click to open"
               />
             </a>
-            <a href="https://github.com/HarrisonWheeler/friendzone-capstone">
-              <img
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                alt="GitHub"
-                class="rounded border cursor shake github ml-2"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Click for source code"
-              />
-            </a>
           </div>
           <hr class="rounded" />
           <div>
-            <h3><u>Kanban</u></h3>
+            <h3>
+              <u>Kanban</u>
+              <a
+                href="https://github.com/JohnDLund/Kanban-Group-Project"
+                target="_blank"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                  alt="GitHub"
+                  class="rounded cursor github ml-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Click for source code"
+                />
+              </a>
+            </h3>
             <p class="text-center">
               Variation of a Trello Board to allow users to create and organize
               lists and tasks. Application built with Vue.js front-end, Node.js
               back-end and integrated Auth0.
             </p>
-            <a href="https://kanban-app-clone.herokuapp.com/">
+            <a href="https://kanban-app-clone.herokuapp.com/" target="_blank">
               <img
                 src="@/assets/Kanban.png"
                 alt="Kanban"
@@ -233,20 +254,25 @@
                 title="Click to open"
               />
             </a>
-            <a href="https://github.com/JohnDLund/Kanban-Group-Project">
-              <img
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                alt="GitHub"
-                class="rounded border cursor shake github ml-2"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Click for source code"
-              />
-            </a>
           </div>
           <hr class="rounded" />
           <div>
-            <h3><u>Bug-Report</u></h3>
+            <h3>
+              <u>Bug-Report</u>
+              <a
+                href="https://github.com/CodyClark07/Bug-Report"
+                target="_blank"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                  alt="GitHub"
+                  class="rounded cursor github ml-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Click for source code"
+                />
+              </a>
+            </h3>
             <p class="">
               Designed to allow a user to log individual bug reports. Bugs
               report created by, and the timestamp it was created. Users can
@@ -254,7 +280,7 @@
               the bugs resolution. Application built with Vue.js, JavaScript and
               integrated Auth0.
             </p>
-            <a href="http://buggreport.herokuapp.com">
+            <a href="http://buggreport.herokuapp.com" target="_blank">
               <img
                 src="@/assets/Bug-Report.png"
                 alt="Bug-Report"
@@ -262,16 +288,6 @@
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Click to open"
-              />
-            </a>
-            <a href="https://github.com/CodyClark07/Bug-Report">
-              <img
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                alt="GitHub"
-                class="rounded border cursor shake github ml-2"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Click for source code"
               />
             </a>
           </div>
@@ -407,5 +423,6 @@ hr.rounded {
   min-height: 50px;
   max-width: 50px;
   max-height: 50px;
+  color: white;
 }
 </style>
