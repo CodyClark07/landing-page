@@ -187,12 +187,12 @@
           <div>
             <h3><u>Friendzone</u></h3>
             <p class="">
-              Application built with Vue.js, Node.js, JavaScript and API's,
-              along with Auth0. Product owner, maintained Scrum principles. This
-              App was designed to be a social media platform for gamers across
-              all consoles. Where they can follow their favorite games and chat
-              with other gamers, as well as maintain a ranking system based off
-              of a Rep score.
+              Product owner, maintained Scrum principles. This App was designed
+              to be a social media platform for gamers across all consoles.
+              Where they can follow their favorite games and chat with other
+              gamers, as well as maintain a ranking system based off of a "Rep"
+              score. Application built with Vue.js, Node.js, JavaScript, MongoDB
+              and API's, along with Auth0.
             </p>
             <a href="https://friendzone-capstone.herokuapp.com">
               <img
@@ -219,9 +219,9 @@
           <div>
             <h3><u>Kanban</u></h3>
             <p class="text-center">
-              Application built with Vue.js front-end, Node.js back-end and
-              integrated Auth0. Variation of a Trello Board to allow users to
-              create and organize lists and tasks.
+              Variation of a Trello Board to allow users to create and organize
+              lists and tasks. Application built with Vue.js front-end, Node.js
+              back-end and integrated Auth0.
             </p>
             <a href="https://kanban-app-clone.herokuapp.com/">
               <img
@@ -248,11 +248,11 @@
           <div>
             <h3><u>Bug-Report</u></h3>
             <p class="">
-              Application built with Vue.js, JavaScript and integrated Auth0.
               Designed to allow a user to log individual bug reports. Bugs
               report created by, and the timestamp it was created. Users can
               also add notes to the bug report providing detailed steps towards
-              the bugs resolution.
+              the bugs resolution. Application built with Vue.js, JavaScript and
+              integrated Auth0.
             </p>
             <a href="http://buggreport.herokuapp.com">
               <img
@@ -313,7 +313,7 @@ hr.rounded {
   min-height: 70rem;
   max-height: 70rem;
   /* min-width: 50rem; */
-  max-width: 50rem;
+  max-width: 70rem;
 }
 .fade-in {
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
