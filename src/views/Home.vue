@@ -177,7 +177,7 @@
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
-        class="col-12 col-lg-8 col-md-8 align-self-center"
+        class="col-12 col-lg-10 col-md-8 align-self-center"
       >
         <div
           class="card bg-gradient border shadow-lg text-white text-center h-25 p-4 cursor"
@@ -311,8 +311,8 @@ hr.rounded {
   border-radius: 5px;
 }
 .h-25 {
-  min-height: 40rem;
-  max-height: 40rem;
+  min-height: 70rem;
+  max-height: 70rem;
   /* min-width: 50rem; */
   max-width: 50rem;
 }
